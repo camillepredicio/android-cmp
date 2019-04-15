@@ -1,0 +1,68 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_consent">ConsentActivity</string>
+    <string name="protecting_your_privacy_is_our_priority">Protecting your privacy is our priority</string>
+    <string name="protecting_privacy_text">We, and our select partners use your personal data for the following
+        purposes. You can enable or disable data sharing for each of the purposes
+    </string>
+
+    <string name="informationStorageAndAccessTitle">Information storage and access</string>
+    <string name="informationStorageAndAccessContent">The storage of information, or access to information that is
+        already stored, on your device such as advertising identifiers, device identifiers, cookies, and similar
+        technologies.
+    </string>
+    <string name="personalisationTitle">Personalisation</string>
+    <string name="personalisationContent">The collection and processing of information about your use of this service to
+        subsequently personalise advertising and/or content for you in other contexts, such as on other websites or
+        apps, over time. Typically, the content of the site or app is used to make inferences about your interests which
+        inform future selection of advertising and/or content.
+    </string>
+    <string name="adSelectionDeliveryReportingTitle">Ad selection, delivery,reporting</string>
+    <string name="adSelectionDeliveryReportingContent">The collection of information, and combination with previously
+        collected information, to select and deliver advertisements for you, and to measure the delivery and
+        effectiveness of such advertisements. This includes using previously collected information about your interests
+        to select ads, processing data about what advertisements were shown, how often they were shown, when and where
+        they were shown, and whether you took any action related to the advertisement, including for example clicking an
+        ad or making a purchase. This does not include Personalisation, which is the collection and processing of
+        information about your use of this service to subsequently personalise advertising and/or content for you in
+        other contexts, such as websites or apps, over time.
+    </string>
+    <string name="contentSelectionDeliveryReportingTitle">Content selection, delivery, reporting</string>
+    <string name="contentSelectionDeliveryReportingContent">The collection of information, and combination with
+        previously collected information, to select and deliver content for you, and to measure the delivery and
+        effectiveness of such content. This includes using previously collected information about your interests to
+        select content, processing data about what content was shown, how often or how long it was shown, when and where
+        it was shown, and whether the you took any action related to the content, including for example clicking on
+        content. This does not include Personalisation, which is the collection and processing of information about your
+        use of this service to subsequently personalise content and/or advertising for you in other contexts, such as
+        websites or apps, over time.
+    </string>
+    <string name="measurementTitle">Measurement</string>
+    <string name="measurementContent">The collection of information about your use of the content, and combination with
+        previously collected information, used to measure, understand, and report on your usage of the service. This
+        does not include Personalisation, the collection of information about your use of this service to subsequently
+        personalise content and/or advertising for you in other contexts, i.e. on other service, such as websites or
+        apps, over time.
+    </string>
+    <string name="locationBasedAdvertisingTitle">Location-Based Advertising</string>
+    <string name="locationBasedAdvertisingContent">In order to provide you with interest-based and location-based
+        advertising, we use your device location (from GPS, Wifi or Bluetooth), and your device advertising ID. This
+        data helps us provide you with promotional offers and discounts when you`re close to your favourite retail
+        locations.
+    </string>
+    <string name="select_all">SELECT ALL</string>
+    <string name="list_of_purposes">List of purposes:</string>
+    <string name="save_preferences">Save preferences</string>
+    <string name="see_our_partners">See our partners</string>
+    <string name="privacyPolicyText">"We aim at protecting your privacy all while providing you with the best service as possible. We would like to inform you regarding the \"Consent to Collection and Use of Data\".\n\nWhile using the application, we collect information from your device in order to improve our products and services. The data may include device information, location, email, app usage, apps installed, wifi information, advertising ID. The data we collect may be shared within our group and with select business partners. They may process some of your data in order to provide you with interest-based and location-based advertising.\n\nWe hope that you wish to help us improve your experience. You may at any time give or withdraw consent, access your data, or have it removed from our database - this can be done through our privacy policy page. By clicking \"Accept all\", you agree to the collection and processing of this data by the app and our select partners. You can personalize and manage your choices by clicking the below \"Privacy settings\"."</string>
+    <string name="privacyPolicyTextLight">We aim at protecting your privacy all while providing you with the best service as possible.We would like to inform you regarding the \"Consent to Collection and Use of Data\".\n\nWhile using the application, we collect information from your device in order to improve our products and services. The data may include device information, location, email, app usage, apps installed, wifi information, advertising ID. The data we collect may be shared within our group and with select business partners. They may process some of your data in order to provide you with interest-based and location-based advertising.\n\nWe hope that you wish to help us improve your experience. You may at any time give or withdraw consent, access your data, or have it removed from our database - this can be done through our privacy policy page. By clicking \"I Agree\", you agree to the collection and processing of this data by the app and our select partners.</string>
+    <string name="powered_by">Powered by</string>
+    <string name="title_activity_partners">List of partners</string>
+    <string name="about_personal_data">About your personal data</string>
+    <string name="accept_all">Accept All</string>
+    <string name="no_thanks">No, Thanks</string>
+    <string name="privacy_settings">Privacy settings</string>
+
+
+</resources>

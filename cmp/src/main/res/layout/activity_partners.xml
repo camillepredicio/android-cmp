@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+                name="viewModel"
+                type="io.predic.cmp_sdk.viewmodels.PartnersViewModel"
+        />
+    </data>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:theme="@style/AppTheme.AppBarOverlay"
+                android:id="@+id/appBarLayoutPartners">
+
+            <android.support.v7.widget.Toolbar
+                    android:id="@+id/partnersToolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@color/toolbarColor"
+                    app:popupTheme="@style/AppTheme.PopupOverlay"
+                    android:layout_weight="1"/>
+
+        </android.support.design.widget.AppBarLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
+        >
+            <TextView
+                    android:text="@string/select_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:id="@+id/selectAllTextView"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_weight="1"/>
+            <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/selectAllSwitch"
+                    android:layout_weight="1"
+                    android:theme="@style/SwitchTheme"
+                    android:onCheckedChanged="@{(button, bool) -> viewModel.onSwitchCheckedChange(bool)}"/>
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/partnersRecyclerView">
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</layout>

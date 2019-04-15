@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="io.predic.cmp_sdk">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:usesCleartextTraffic="true"
+            tools:targetApi="m">
+        <meta-data
+                android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+                android:value="true"/>
+        <activity android:name=".activities.PartnersActivity"
+            android:label="@string/title_activity_partners"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".activities.ConsentActivity"
+                android:label="@string/title_activity_consent"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".activities.SettingsActivity"
+                android:label="@string/title_activity_settings"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>
